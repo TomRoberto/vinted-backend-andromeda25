@@ -13,6 +13,8 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
+console.log("tom");
+
 const userRoutes = require("./routes/user");
 const offerRoutes = require("./routes/offer");
 
